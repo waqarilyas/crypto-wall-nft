@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>This is the start of our crypto wall project</p>
+        <p>u fuckin fuckin </p>
       </header>
     </div>
   );
