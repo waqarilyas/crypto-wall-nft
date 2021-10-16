@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Routes from "./routes";
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>This is the start of our crypto wall project</p>
-      </header>
+      <Router>
+        <Switch>
+          <Routes />
+        </Switch>
+      </Router>
     </div>
   );
 }
