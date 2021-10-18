@@ -1,0 +1,18 @@
+.container {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.mainLogo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.logoContainer {
+  align-items: center;
+  justify-content: center;
+}
+.headerRight {
+  display: flex;
+  align-self: flex-end;
+}
