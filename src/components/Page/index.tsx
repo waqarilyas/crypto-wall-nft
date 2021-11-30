@@ -1,10 +1,9 @@
-
-import { clearAllBodyScrollLocks } from "body-scroll-lock"
-import React, { useEffect } from "react"
-import { useLocation } from "react-router-dom"
-import Header from "../Header"
-import styles from "./Page.module.scss"
-
+import { clearAllBodyScrollLocks } from "body-scroll-lock";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import Footer from "../Footer";
+import Header from "../Header";
+import styles from "./Page.module.scss";
 
 const Page = ({ children }: any) => {
   const { pathname } = useLocation();
@@ -18,7 +17,7 @@ const Page = ({ children }: any) => {
     <div className={styles.page}>
       <Header />
       <div className={styles.inner}>{children}</div>
-
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,29 @@
+@import "../../styles/helpers";
+@import "../../styles/common";
+
+.container {
+  display: flex;
+  //   background-color: yellow;
+  justify-content: space-between;
+  border-top: 1px solid $neutrals6;
+  height: 30vh;
+}
+.leftContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.middleContainer {
+  flex: 0.5;
+}
+.rightContainer {
+  flex: 1;
+}
+.titleDesc {
+  //   font-weight: lighter;
+  @include poppins;
+}
+.footerTitle {
+  @include poppins;
+}
