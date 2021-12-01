@@ -1,5 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import faker from "faker";
+import styles from "./bottomcard.module.scss";
+
 const BottomCard = () => {
 	return (
 		<div>
@@ -12,10 +15,7 @@ const BottomCard = () => {
 					overflow: "hidden",
 				}}
 			>
-				<Card.Img
-					variant="top"
-					src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.jpg"
-				/>
+				<Card.Img variant="top" src={faker.image.city()} />
 			</Card>
 			<Card.Text style={{ textAlign: "initial" }}>
 				Exclusive premium events, from exhibitions to unique collectibles.

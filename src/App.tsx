@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
 import Routes from "./routes";
 
