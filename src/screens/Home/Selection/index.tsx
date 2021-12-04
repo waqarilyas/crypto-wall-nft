@@ -1,9 +1,9 @@
 import React from "react";
 import cn from "classnames";
-import { Link } from "react-router-dom";
-import styles from "./Selection.module.scss";
-import Icon from "../../../components/Icon";
 import faker from "faker";
+import { Link } from "react-router-dom";
+import Icon from "../../../components/Icon";
+import styles from "./Selection.module.scss";
 
 const items = [...Array(4)].map(item => {
   return {
@@ -27,44 +27,13 @@ const users = [...Array(3)].map(item => {
   };
 });
 
-// const users = [
-//   {
-//     name: "Payton Harris",
-//     price: "<span>2.456</span> ETH",
-//     counter: "6",
-//     avatar: "/images/content/avatar-1.jpg",
-//   },
-//   {
-//     name: "Anita Bins",
-//     price: "<span>2.456</span> ETH",
-//     counter: "2",
-//     avatar: "/images/content/avatar-2.jpg",
-//   },
-//   {
-//     name: "Joana Wuckert",
-//     price: "<span>2.456</span> ETH",
-//     counter: "3",
-//     avatar: "/images/content/avatar-3.jpg",
-//   },
-//   {
-//     name: "Lorena Ledner",
-//     price: "<span>2.456</span> ETH",
-//     counter: "4",
-//     avatar: "/images/content/avatar-4.jpg",
-//   },
-// ];
-
 const Selection = () => {
-  console.log("--items--", items);
-
   return (
     <div className={cn("section-pb", styles.section)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.row}>
           <div className={styles.col}>
             {items.map((x, index) => {
-              console.log("--x--", x);
-
               return (
                 index === 0 && (
                   <Link className={styles.card} to={x.url} key={index}>
