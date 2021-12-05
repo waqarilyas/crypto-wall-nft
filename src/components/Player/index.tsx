@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import cn from "classnames";
-import styles from "./Player.module.scss";
+import React from "react";
 import Icon from "../Icon";
+import styles from "./Player.module.scss";
 
 const Player = ({ className, item }: any) => {
   return (

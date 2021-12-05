@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
 import cn from "classnames";
-import styles from "./Header.module.scss";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Icon from "../Icon";
-import Image from "../Image";
+import styles from "./Header.module.scss";
 import Notification from "./Notification";
 import User from "./User";
 
@@ -30,9 +29,9 @@ const Headers = () => {
   const [visibleNav, setVisibleNav] = useState(false);
   const [search, setSearch] = useState("");
 
-  const handleSubmit = () => {
-    alert();
-  };
+  // const handleSubmit = () => {
+  //   alert();
+  // };
 
   return (
     <header className={styles.header}>

@@ -1,12 +1,11 @@
 import React from "react";
-import HomeSlider from "./HomeSlider";
-import styles from "./Home.module.scss";
-import Selection from "./Selection";
-import PopularArtist from "./PopularArtists";
-import HotBid from "./HotBid";
 import Collections from "./Collections";
-import Discover from "./Discover";
 import Description from "./Description";
+import Discover from "./Discover";
+import HomeSlider from "./HomeSlider";
+import HotBid from "./HotBid";
+import PopularArtist from "./PopularArtists";
+import Selection from "./Selection";
 
 const Home = () => {
   return (
