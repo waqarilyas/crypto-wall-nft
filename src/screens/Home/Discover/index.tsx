@@ -61,7 +61,7 @@ const Discover = () => {
       },
       {
         breakpoint: 100000,
-        settings: "unslick",
+        settings: {},
       },
     ],
   };
