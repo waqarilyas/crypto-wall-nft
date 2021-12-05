@@ -95,7 +95,7 @@ const SlickArrow = ({ currentSlide, slideCount, children, ...props }: any) => (
   <button {...props}>{children}</button>
 );
 
-const dateOptions = ["Today", "Morning", "Dinner", "Evening"];
+const dateOptions = ["Today", "Week", "Month", "Year"];
 const directionOptions = ["Sellers", "Buyers"];
 
 const PopularArtist = () => {

@@ -4,6 +4,9 @@ import styles from "./Home.module.scss";
 import Selection from "./Selection";
 import PopularArtist from "./PopularArtists";
 import HotBid from "./HotBid";
+import Collections from "./Collections";
+import Discover from "./Discover";
+import Description from "./Description";
 
 const Home = () => {
   return (
@@ -12,6 +15,9 @@ const Home = () => {
       <Selection />
       <PopularArtist />
       <HotBid classSection='section' />
+      <Collections />
+      <Discover />
+      <Description />
     </>
   );
 };
