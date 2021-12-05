@@ -43,7 +43,7 @@ const Headers = () => {
             srcDark='/images/logo-light.png'
             alt='Fitness Pro'
           /> */}
-          <h1>CryptoWall</h1>
+          <h1>CryptoWalllll</h1>
         </Link>
         <div className={cn(styles.wrapper, { [styles.active]: visibleNav })}>
           <nav className={styles.nav}>
