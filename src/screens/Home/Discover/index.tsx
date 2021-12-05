@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import cn from "classnames";
 import styles from "./Discover.module.scss";
 import { Range, getTrackBackground } from "react-range";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 import Icon from "../../../components/Icon";
 import Card from "../../../components/Card";
 import Dropdown from "../../../components/Dropdown";
@@ -37,8 +37,8 @@ const Discover = () => {
   const MIN = 0.01;
   const MAX = 10;
 
-  const settings = {
-    infinite: false,
+  const settings: Settings = {
+    infinite: true,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -61,11 +61,10 @@ const Discover = () => {
       },
       {
         breakpoint: 100000,
-        settings: {},
+        settings: "unslick",
       },
     ],
   };
-
   return (
     <div className={cn("section", styles.section)}>
       <div className={cn("container", styles.container)}>
@@ -220,10 +219,7 @@ const Discover = () => {
           </div>
         </div>
         <div className={styles.list}>
-          <Slider
-            className={cn("discover-slider", styles.slider)}
-            {...settings}
-          >
+          <Slider className={cn(styles.slider)} {...settings}>
             {bids.map((x, index) => (
               <Card className={styles.card} item={x} key={index} />
             ))}
