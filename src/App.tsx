@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import "./styles/app.sass";
 import Page from "./components/Page";
 import Home from "./screens/Home";
+import UploadVariants from "./screens/UploadVariants";
 
 const App = () => {
   return (
@@ -13,6 +14,14 @@ const App = () => {
           element={
             <Page>
               <Home />
+            </Page>
+          }
+        />
+        <Route
+          path='/upload-variants'
+          element={
+            <Page>
+              <UploadVariants />
             </Page>
           }
         />

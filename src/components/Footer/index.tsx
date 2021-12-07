@@ -8,7 +8,7 @@ import Group from "./Group";
 
 const items = [
   {
-    title: "Crypter.",
+    title: "Crypowall.",
     menu: [
       {
         title: "Discover",
