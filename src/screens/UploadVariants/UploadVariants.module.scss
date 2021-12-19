@@ -1,0 +1,115 @@
+@import "./../../styles/helpers";
+@import "./../../styles/common";
+.navBar{
+    display: flex;
+    position: relative;
+    z-index: 20;
+    padding: 15px 0;
+    border-bottom: 1px solid #E6E8EC;
+    font-size: 14px;
+    line-height: 3;
+}
+.leftShift{
+    flex-grow: .85;
+    padding-left: 6vw;
+}
+.rightSift{
+    display: flex;
+   
+}
+a{
+     font-family: 'DM Sans', sans-serif;
+    //  font-size: 14px;
+    // line-height: 3;
+    font-weight: 700;
+    color: $neutrals4;
+    transition: color 0.2s;
+    &:hover {
+    color: darken($blue, 6);
+      }
+    }
+    .simpleArrowsstyle{
+        font-weight: 700;
+    color: $neutrals4;
+    }
+ p{
+  
+    // font-size: 14px;
+    // line-height: 3;
+    font-weight: 500;
+ }
+ .body{
+     margin-top: 15vh;
+ }
+ h2{
+     text-align: center;
+     font-size: 40px;
+     line-height: 1;
+     margin: 14px 0px;
+ }
+
+ .paramain{
+    font-family: Poppins;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    color: $neutrals4;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 2vh;
+ }
+ span{
+     color: black;
+ }
+ .card{
+   margin-right: 1vw;
+     display: flex;
+     flex-direction: column;
+     width: 20vw;
+     height: 50vh;
+     border-radius: 10px;
+    //  background: $neutrals4;
+     margin-bottom: 20px;
+     border: 2px solid $neutrals6;
+ }
+ .card2{
+   margin-left: 1vw;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 50vh;
+  border-radius: 10px;
+  //background: $neutrals4;
+  margin-bottom: 20px;
+  border: 2px solid $neutrals6;
+}
+
+ .btnss {
+    margin-top: 20px;
+    text-align: center;
+    background: none;
+    @include m {
+      display: none;
+    }
+  }
+  img{
+    
+    text-align: center;
+      width: 18vw;
+      height: 33vh;
+      margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+     
+  }
+  .cardContainer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10vh;
+  }
+  .lastparamain{
+      margin-bottom: 15vh;
+  }
