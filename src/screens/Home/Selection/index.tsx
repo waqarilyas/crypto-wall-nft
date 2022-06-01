@@ -1,11 +1,11 @@
-import React from "react";
 import cn from "classnames";
 import faker from "faker";
+import React from "react";
 import { Link } from "react-router-dom";
 import Icon from "../../../components/Icon";
 import styles from "./Selection.module.scss";
 
-const items = [...Array(4)].map(item => {
+const items = [...Array(4)].map((item) => {
   return {
     title: faker.lorem.words(),
     content: "lorem",
@@ -18,7 +18,7 @@ const items = [...Array(4)].map(item => {
   };
 });
 
-const users = [...Array(3)].map(item => {
+const users = [...Array(3)].map((item) => {
   return {
     name: faker.name.findName(),
     price: `<span>${faker.datatype.number()}</span> ETH`,
@@ -41,13 +41,13 @@ const Selection = () => {
                       <img
                         srcSet={`${x.image2x} 2x`}
                         src={x.image}
-                        alt='Selection'
+                        alt="Selection"
                       />
                     </div>
                     <div className={styles.head}>
                       <div className={styles.line}>
                         <div className={styles.avatar}>
-                          <img src={x.avatar} alt='Avatar' />
+                          <img src={x.avatar} alt="Avatar" />
                         </div>
                         <div className={styles.description}>
                           <div className={styles.title}>{x.title}</div>
@@ -73,14 +73,14 @@ const Selection = () => {
                       <img
                         srcSet={`${x.image2x} 2x`}
                         src={x.image}
-                        alt='Selection'
+                        alt="Selection"
                       />
                     </div>
                     <div className={styles.description}>
                       <div className={styles.title}>{x.title}</div>
                       <div className={styles.line}>
                         <div className={styles.avatar}>
-                          <img src={x.avatar} alt='Avatar' />
+                          <img src={x.avatar} alt="Avatar" />
                         </div>
                         <div className={styles.price}>{x.price}</div>
                         <div className={styles.content}>{x.content}</div>
@@ -103,7 +103,7 @@ const Selection = () => {
         <div className={styles.sidebar}>
           <div className={styles.info}>
             Latest upload from creators{" "}
-            <span className={styles.smile} role='img' aria-label='fire'>
+            <span className={styles.smile} role="img" aria-label="fire">
               🔥
             </span>
           </div>
@@ -111,7 +111,7 @@ const Selection = () => {
             {users.map((x, index) => (
               <div className={styles.user} key={index}>
                 <div className={styles.avatar}>
-                  <img src={x.avatar} alt='Avatar' />
+                  <img src={x.avatar} alt="Avatar" />
                   <div className={styles.number}>{x.counter}</div>
                 </div>
                 <div className={styles.description}>
@@ -126,10 +126,10 @@ const Selection = () => {
           </div>
           <Link
             className={cn("button-stroke button-small", styles.button)}
-            to='/search01'
+            to="/discover"
           >
             <span>Discover more</span>
-            <Icon name='arrow-next' size='10' />
+            <Icon name="arrow-next" size="10" />
           </Link>
         </div>
       </div>

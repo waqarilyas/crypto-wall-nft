@@ -12,7 +12,7 @@ const items = [
     menu: [
       {
         title: "Discover",
-        url: "/search01",
+        url: "/discover",
       },
       {
         title: "Connect wallet",
@@ -47,7 +47,7 @@ const Footer = () => {
       <div className={cn("container", styles.container)}>
         <div className={styles.row}>
           <div className={styles.col}>
-            <Link className={styles.logo} to='/'>
+            <Link className={styles.logo} to="/">
               {/* <Image
                 className={styles.pic}
                 src='/images/logo-dark.png'
@@ -60,7 +60,7 @@ const Footer = () => {
             <div className={styles.info}>The New Creative Economy.</div>
             <div className={styles.version}>
               <div className={styles.details}>Dark theme</div>
-              <Theme className='theme-big' />
+              <Theme className="theme-big" />
             </div>
           </div>
           <div className={styles.col}>
@@ -79,9 +79,9 @@ const Footer = () => {
               value={email}
               setValue={setEmail}
               onSubmit={() => handleSubmit()}
-              placeholder='Enter your email'
-              type='email'
-              name='email'
+              placeholder="Enter your email"
+              type="email"
+              name="email"
             />
           </div>
         </div>
@@ -90,7 +90,7 @@ const Footer = () => {
             Copyright © 2021 UI8 LLC. All rights reserved
           </div>
           <div className={styles.note}>
-            We use cookies for better service. <a href='/#'>Accept</a>
+            We use cookies for better service. <a href="/#">Accept</a>
           </div>
         </div>
       </div>

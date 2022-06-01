@@ -12,7 +12,7 @@ const items = [
     date: "2 days ago",
     color: "#3772FF",
     image: "/images/content/notification-pic-1.jpg",
-    url: "/activit",
+    url: "/activity",
   },
   {
     title: "C O I N Z",
@@ -50,7 +50,7 @@ const Notification = ({ className }: any) => {
           className={cn(styles.head, styles.active)}
           onClick={() => setVisible(!visible)}
         >
-          <Icon name='notification' size='24' />
+          <Icon name="notification" size="24" />
         </button>
         {visible && (
           <div className={styles.body}>
@@ -64,7 +64,7 @@ const Notification = ({ className }: any) => {
                   key={index}
                 >
                   <div className={styles.preview}>
-                    <img src={x.image} alt='Notification' />
+                    <img src={x.image} alt="Notification" />
                   </div>
                   <div className={styles.details}>
                     <div className={styles.subtitle}>{x.title}</div>
@@ -80,7 +80,7 @@ const Notification = ({ className }: any) => {
             </div>
             <Link
               className={cn("button-small", styles.button)}
-              to='/activity'
+              to="/activity"
               onClick={() => setVisible(!visible)}
             >
               See all

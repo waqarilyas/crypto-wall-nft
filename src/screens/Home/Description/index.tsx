@@ -17,10 +17,10 @@ const Description = () => {
             A creative agency that lead and inspire
           </div>
           <div className={styles.btns}>
-            <Link className={cn("button", styles.button)} to='/upload-variants'>
+            <Link className={cn("button", styles.button)} to="/upload-variants">
               Create item
             </Link>
-            <Link className={cn("button-stroke", styles.button)} to='/search01'>
+            <Link className={cn("button-stroke", styles.button)} to="/discover">
               Discover more
             </Link>
           </div>
@@ -28,20 +28,20 @@ const Description = () => {
         <div className={styles.gallery}>
           <div className={styles.preview}>
             <Image
-              srcSet='/images/content/cubes@2x.png 2x'
-              srcSetDark='/images/content/cubes-dark@2x.png 2x'
-              src='/images/content/cubes.png'
-              srcDark='/images/content/cubes-dark.png'
-              alt='Cubes'
+              srcSet="/images/content/cubes@2x.png 2x"
+              srcSetDark="/images/content/cubes-dark@2x.png 2x"
+              src="/images/content/cubes.png"
+              srcDark="/images/content/cubes-dark.png"
+              alt="Cubes"
             />
           </div>
           <div className={styles.preview}>
             <Image
-              srcSet='/images/content/cube@2x.png 2x'
-              srcSetDark='/images/content/cube-dark@2x.png 2x'
-              src='/images/content/cube.png'
-              srcDark='/images/content/cube-dark.png'
-              alt='Cube'
+              srcSet="/images/content/cube@2x.png 2x"
+              srcSetDark="/images/content/cube-dark@2x.png 2x"
+              src="/images/content/cube.png"
+              srcDark="/images/content/cube-dark.png"
+              alt="Cube"
             />
           </div>
         </div>

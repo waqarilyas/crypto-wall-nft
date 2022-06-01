@@ -58,12 +58,12 @@ const HomeSlider = () => {
     adaptiveHeight: true,
     nextArrow: (
       <SlickArrow>
-        <Icon name='arrow-next' size='14' />
+        <Icon name="arrow-next" size="14" />
       </SlickArrow>
     ),
     prevArrow: (
       <SlickArrow>
-        <Icon name='arrow-prev' size='14' />
+        <Icon name="arrow-prev" size="14" />
       </SlickArrow>
     ),
   };
@@ -79,12 +79,12 @@ const HomeSlider = () => {
             <h2 className={cn("h3", styles.title)}>
               The new creative economy.
             </h2>
-            <Link className={cn("button-stroke", styles.button)} to='/search01'>
+            <Link className={cn("button-stroke", styles.button)} to="/discover">
               Start your search
             </Link>
           </div>
           <div className={styles.wrapper}>
-            <Slider className='creative-slider' {...settings}>
+            <Slider className="creative-slider" {...settings}>
               {items.map((x, index) => (
                 <div className={styles.slide} key={index}>
                   <div className={styles.row}>
@@ -94,7 +94,7 @@ const HomeSlider = () => {
                       <div className={styles.line}>
                         <div className={styles.item}>
                           <div className={styles.avatar}>
-                            <img src={x.avatar} alt='Avatar' />
+                            <img src={x.avatar} alt="Avatar" />
                           </div>
                           <div className={styles.description}>
                             <div className={styles.category}>Creator</div>
@@ -103,7 +103,7 @@ const HomeSlider = () => {
                         </div>
                         <div className={styles.item}>
                           <div className={styles.icon}>
-                            <Icon name='stop' size='24' />
+                            <Icon name="stop" size="24" />
                           </div>
                           <div className={styles.description}>
                             <div className={styles.category}>Instant price</div>
@@ -140,7 +140,7 @@ const HomeSlider = () => {
                         </button>
                         <Link
                           className={cn("button-stroke", styles.button)}
-                          to='/item'
+                          to="/item"
                         >
                           View item
                         </Link>

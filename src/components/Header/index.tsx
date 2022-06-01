@@ -8,17 +8,17 @@ import User from "./User";
 
 const nav = [
   {
-    url: "/search01",
+    url: "/discover",
     title: "Discover",
   },
   {
     url: "/faq",
     title: "How it work",
   },
-  // {
-  //   url: "/item",
-  //   title: "Create item",
-  // },
+  {
+    url: "/item",
+    title: "Create item",
+  },
   // {
   //   url: "/profile",
   //   title: "Profile",
@@ -36,7 +36,7 @@ const Headers = () => {
   return (
     <header className={styles.header}>
       <div className={cn("container", styles.container)}>
-        <Link className={styles.logo} to='/'>
+        <Link className={styles.logo} to="/">
           {/* <Image
             className={styles.pic}
             src='/images/logo-dark.png'
@@ -60,25 +60,25 @@ const Headers = () => {
           </nav>
           <form
             className={styles.search}
-            action=''
+            action=""
             // onSubmit={() => handleSubmit()}
           >
             <input
               className={styles.input}
-              type='text'
+              type="text"
               value={search}
-              onChange={e => setSearch(e.target.value)}
-              name='search'
-              placeholder='Search'
+              onChange={(e) => setSearch(e.target.value)}
+              name="search"
+              placeholder="Search"
               required
             />
             <button className={styles.result}>
-              <Icon name='search' size='20' />
+              <Icon name="search" size="20" />
             </button>
           </form>
           <Link
             className={cn("button-small", styles.button)}
-            to='/upload-variants'
+            to="/upload-variants"
           >
             Upload
           </Link>
@@ -86,7 +86,7 @@ const Headers = () => {
         <Notification className={styles.notification} />
         <Link
           className={cn("button-small", styles.button)}
-          to='/upload-variants'
+          to="/upload-variants"
         >
           Upload
         </Link>
