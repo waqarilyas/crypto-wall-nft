@@ -26,7 +26,7 @@ const items = [
     color: "#EF466F",
   },
   {
-    title: "UI8",
+    title: "CryptoWall",
     description: "started following you",
     date: "2 days ago",
     image: "/images/content/activity-pic-2.jpg",
@@ -43,7 +43,7 @@ const items = [
   },
   {
     title: "C O I N Z",
-    description: "purchased by You for 0.001 ETH from UI8",
+    description: "purchased by You for 0.001 ETH from CryptoWall",
     date: "2 days ago",
     image: "/images/content/activity-pic-4.jpg",
     icon: "/images/content/megaphone.svg",

@@ -24,15 +24,15 @@ const navLinks = [
 const socials = [
   {
     title: "twitter",
-    url: "https://twitter.com/ui8",
+    url: "https://twitter.com",
   },
   {
     title: "instagram",
-    url: "https://www.instagram.com/ui8net/",
+    url: "https://www.instagram.com",
   },
   {
     title: "facebook",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "https://www.facebook.com",
   },
 ];
 
@@ -41,7 +41,7 @@ const following = [
     name: "Sally Fadel",
     counter: "161 followers",
     avatar: "/images/content/avatar-5.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "stroke",
     buttonContent: "Unfollow",
     gallery: [
@@ -55,7 +55,7 @@ const following = [
     name: "Aniya Harber",
     counter: "161 followers",
     avatar: "/images/content/avatar-6.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "stroke",
     buttonContent: "Unfollow",
     gallery: [
@@ -69,7 +69,7 @@ const following = [
     name: "Edwardo Bea",
     counter: "161 followers",
     avatar: "/images/content/avatar-7.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "stroke",
     buttonContent: "Unfollow",
     gallery: [
@@ -83,7 +83,7 @@ const following = [
     name: "Reymundo",
     counter: "161 followers",
     avatar: "/images/content/avatar-8.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "stroke",
     buttonContent: "Unfollow",
     gallery: [
@@ -97,7 +97,7 @@ const following = [
     name: "Jeanette",
     counter: "161 followers",
     avatar: "/images/content/avatar-9.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "stroke",
     buttonContent: "Unfollow",
     gallery: [
@@ -114,7 +114,7 @@ const followers = [
     name: "Sally Fadel",
     counter: "161 followers",
     avatar: "/images/content/avatar-5.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "blue",
     buttonContent: "Follow",
     gallery: [
@@ -128,7 +128,7 @@ const followers = [
     name: "Aniya Harber",
     counter: "161 followers",
     avatar: "/images/content/avatar-6.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "blue",
     buttonContent: "Follow",
     gallery: [
@@ -142,7 +142,7 @@ const followers = [
     name: "Edwardo Bea",
     counter: "161 followers",
     avatar: "/images/content/avatar-7.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "blue",
     buttonContent: "Follow",
     gallery: [
@@ -156,7 +156,7 @@ const followers = [
     name: "Reymundo",
     counter: "161 followers",
     avatar: "/images/content/avatar-8.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "blue",
     buttonContent: "Follow",
     gallery: [
@@ -170,7 +170,7 @@ const followers = [
     name: "Jeanette",
     counter: "161 followers",
     avatar: "/images/content/avatar-9.jpg",
-    url: "https://ui8.net",
+    url: "https://www.cryptowall-nft.com/",
     buttonClass: "blue",
     buttonContent: "Follow",
     gallery: [

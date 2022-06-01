@@ -8,8 +8,8 @@ import { FacebookShareButton, TwitterShareButton } from "react-share";
 import Report from "../../../components/Report";
 // import { isStepDivisible } from "react-range/lib/utils";
 
-const shareUrlFacebook = "https://ui8.net";
-const shareUrlTwitter = "https://ui8.net";
+const shareUrlFacebook = "https://www.cryptowall-nft.com/";
+const shareUrlTwitter = "https://www.cryptowall-nft.com/";
 
 const User = ({ className, item }) => {
   const [visible, setVisible] = useState(false);
@@ -35,12 +35,12 @@ const User = ({ className, item }) => {
         </div>
         <a
           className={styles.site}
-          href="https://ui8.net"
+          href="https://www.cryptowall-nft.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon name="globe" size="16" />
-          <span>https://ui8.net</span>
+          <span>https://www.cryptowall-nft.com/</span>
         </a>
         <div className={styles.control}>
           <div className={styles.btns}>

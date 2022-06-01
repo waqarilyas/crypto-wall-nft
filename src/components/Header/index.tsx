@@ -11,10 +11,10 @@ const nav = [
     url: "/discover",
     title: "Discover",
   },
-  {
-    url: "/faq",
-    title: "How it work",
-  },
+  // {
+  //   url: "/faq",
+  //   title: "How it work",
+  // },
   {
     url: "/item",
     title: "Create item",
@@ -90,12 +90,12 @@ const Headers = () => {
         >
           Upload
         </Link>
-        {/* <Link
+        <Link
           className={cn("button-stroke button-small", styles.button)}
-          to='/connect-wallet'
+          to="/connect-wallet"
         >
           Connect Wallet
-        </Link> */}
+        </Link>
         <User className={styles.user} />
         <button
           className={cn(styles.burger, { [styles.active]: visibleNav })}

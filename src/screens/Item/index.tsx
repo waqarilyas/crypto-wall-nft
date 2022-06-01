@@ -76,13 +76,13 @@ const Item = () => {
             </div>
             <div className={styles.info}>
               This NFT Card will give you Access to Special Airdrops. To learn
-              more about UI8 please visit{" "}
+              more about CryptoWall please visit{" "}
               <a
-                href="https://ui8.net"
+                href="https://www.cryptowall-nft.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://ui8.net
+                https://www.cryptowall-nft.com/
               </a>
             </div>
             <div className={styles.nav}>
