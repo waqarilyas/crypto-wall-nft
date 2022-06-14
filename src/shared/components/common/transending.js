@@ -4,7 +4,7 @@ import { convertToEther } from "../../util/dateValid";
 import { ProfilePlaceHolder } from "../../../assets";
 function Transending({ TranArtist }) {
   return (
-    <div className="transcending-artists=content table-responsive">
+    <div className="transcending-artists=content">
       <table className="table">
         <thead>
           <tr>

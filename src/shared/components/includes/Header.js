@@ -3,6 +3,7 @@ import { Link, Route } from "react-router-dom";
 
 //== import "../../../assets/css/all.css";
 import logo from "../../../assets/images/logo.png";
+// import logo from "../../../assets/images/logoicon.png";
 import Search from "../../../assets/images/search.svg";
 import profile from "../../../assets/images/author-img2.png";
 
@@ -98,7 +99,8 @@ export default function Header(props) {
           <div className="header-flex">
             <div className="logo">
               <Link to="/">
-                <img src={logo} alt="logo"/>
+                {/* <img src={logo} alt="logo"/> */}
+                <h3 className="hideLogo">CryptoWall</h3>
               </Link>
             </div>
             <div className="cus-navigation">

@@ -3,7 +3,8 @@ import FacebookIcon from "../../../assets/images/facebook-icon.png";
 import TwitterIcon from "../../../assets/images/twitter-icon.png";
 import linkdinIcon from "../../../assets/images/linkdin-icon.png";
 import InstagramIcon from "../../../assets/images/instagram-icon.png";
-import FooterLogo from "../../../assets/images/footer-logo.png";
+// import FooterLogo from "../../../assets/images/footer-logo.png";
+import FooterLogo from "../../../assets/images/footerIcon.png";
 import { Link, Route } from "react-router-dom";
 
 export default function Footer() {
@@ -14,7 +15,7 @@ export default function Footer() {
           <div className="footer-top-flex">
             <div className="footer-logo">
               <Link to="/Home">
-                <img src={FooterLogo} alt="footer-logo" style={{width:"200px"}}/>
+                <img className="imgimg"src={FooterLogo} alt="footer-logo" style={{ width: "40px" }} /><h4>CryptoWall</h4>
               </Link>
             </div>
             <div className="quick-links">

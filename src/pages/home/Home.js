@@ -335,10 +335,10 @@ export default function Home(props) {
           </div>
         </div>
       </section>
-      <section className="nft-market-sec">
+      <section className="nft-market-sec  ">
         <div className="container">
           <h3>Who’s Who: Climbing The NFT Market</h3>
-          <Tabs onSelect={(index, label) => console.log(label + " selected")} style={{cursor:"pointer"}}>
+          <Tabs onSelect={(index, label) => console.log(label + " selected")} style={{cursor:"pointer"}} className="table-responsive">
             <Tab label="Transcending Artists">
               <Transend />
             </Tab>
