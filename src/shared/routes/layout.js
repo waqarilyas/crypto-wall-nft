@@ -5,7 +5,7 @@ function Layout(props) {
     ChangeTitle(props?.name);
   });
   const ChangeTitle = (string) => {
-    document.title = ` ${string} | DigiDrip `;
+    document.title = ` ${string} | CryptoWall `;
   };
 
   return (

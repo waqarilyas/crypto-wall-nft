@@ -11,16 +11,16 @@ import OfferBanner from "../assets/images/steezdesigns-profile-img.png";
 import UpArrows from "../assets/images/up-arrow.png";
 
 export default function SteezDesigns() {
-  const array = [{value :" Once our DigiDrip Innovations page is accessed, please go to the top right hand of our homepage and create an account."},
-{value:"Next, you will need to link your MetaMask wallet to your created account on DigiDrip." },
+  const array = [{value :" Once our CryptoWall Innovations page is accessed, please go to the top right hand of our homepage and create an account."},
+{value:"Next, you will need to link your MetaMask wallet to your created account on CryptoWall." },
 {value:"If you do not have a wallet, you can click the 'create wallet' link on our Connect Wallet page or go to metamask.io."},
 {value:"You will need to purchase Ethereum (ETH), the cryptocurrency. This allows you to mint your own NFT's as well as buy music and art pieces on our site." },
 {value:"Once your wallet is created and linked, send the purchased Ethereum to your MetaMask's ETH wallet address." },
-{value:"This will allow you to have the necessary access needed to upload or transfer a piece of work on our site in order to bid, sell, and collect through your account at DigiDrip." },
+{value:"This will allow you to have the necessary access needed to upload or transfer a piece of work on our site in order to bid, sell, and collect through your account at CryptoWall." },
 {value:"Once you have created your account, and have a wallet connected, you can next upload an NFT or transfer one on to our site. Through your account, click “Submit NFT” to upload a piece of work that you wish to post for sale." },
-{value:"After your NFT is minted and set for sale, sit back and watch DigiDrip work it's magic! It is our job to provide a safe and sound marketplace for your work to gain recognition." },
+{value:"After your NFT is minted and set for sale, sit back and watch CryptoWall work it's magic! It is our job to provide a safe and sound marketplace for your work to gain recognition." },
 {value:"In order to be trasnparent with our customers; there will be a 2.5% brokerage fee at the time of sale." },
-{value:"Please email us with any questions at support@digidrip.net." },
+{value:"Please email us with any questions at support@CryptoWall.net." },
 
 
 ];
@@ -28,7 +28,7 @@ export default function SteezDesigns() {
     <div className="container exti">
      
 
-     <span className="spani"> DIGIDRIP How It Works-</span>
+     <span className="spani"> CryptoWall How It Works-</span>
 <div className="listing">
 <ul>
 {
@@ -45,9 +45,9 @@ export default function SteezDesigns() {
 </div>
 
 
-{/* 1. Once our DigiDrip Innovations page is accessed, please go to the top right hand of our homepage and create an account.
+{/* 1. Once our CryptoWall Innovations page is accessed, please go to the top right hand of our homepage and create an account.
 
-2. Next, you will need to link your MetaMask wallet to your created account on DigiDrip. 
+2. Next, you will need to link your MetaMask wallet to your created account on CryptoWall. 
 
 3. If you do not have a wallet, you can click the "create wallet" link on our Connect Wallet page or go to metamask.io.
 
@@ -55,15 +55,15 @@ export default function SteezDesigns() {
 
 5. Once your wallet is created and linked, send the purchased Ethereum to your MetaMask's ETH wallet address.  
 
-6. This will allow you to have the necessary access needed to upload or transfer a piece of work on our site in order to bid, sell, and collect through your account at DigiDrip.
+6. This will allow you to have the necessary access needed to upload or transfer a piece of work on our site in order to bid, sell, and collect through your account at CryptoWall.
 
 7. Once you have created your account, and have a wallet connected, you can next upload an NFT or transfer one on to our site. Through your account, click “Submit NFT” to upload a piece of work that you wish to post for sale.
 
-8. After your NFT is minted and set for sale, sit back and watch DigiDrip work it's magic! It is our job to provide a safe and sound marketplace for your work to gain recognition.
+8. After your NFT is minted and set for sale, sit back and watch CryptoWall work it's magic! It is our job to provide a safe and sound marketplace for your work to gain recognition.
 
 9. In order to be trasnparent with our customers; there will be a 2.5% brokerage fee at the time of sale.  
 
-10. Please email us with any questions at support@digidrip.net.  */}
+10. Please email us with any questions at support@CryptoWall.net.  */}
 
 
       {/* <Header /> */}

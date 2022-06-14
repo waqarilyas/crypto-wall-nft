@@ -76,9 +76,9 @@ export default function Home(props) {
           <div className="row">
             <div className="col-md-6">
               <div className="home-text">
-                <h5>Collect DigiDrip</h5>
+                <h5>Collect CryptoWall</h5>
                 <h1>
-                  Premier Music <span> & Artwork</span>
+                  Premier NFT <span> & Artwork</span>
                 </h1>
                 <button
                   className="custom-site-btn"
@@ -338,7 +338,7 @@ export default function Home(props) {
       <section className="nft-market-sec">
         <div className="container">
           <h3>Who’s Who: Climbing The NFT Market</h3>
-          <Tabs onSelect={(index, label) => console.log(label + " selected")}>
+          <Tabs onSelect={(index, label) => console.log(label + " selected")} style={{cursor:"pointer"}}>
             <Tab label="Transcending Artists">
               <Transend />
             </Tab>

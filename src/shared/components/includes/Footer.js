@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="footer-top-flex">
             <div className="footer-logo">
               <Link to="/Home">
-                <img src={FooterLogo} alt="footer-logo" />
+                <img src={FooterLogo} alt="footer-logo" style={{width:"200px"}}/>
               </Link>
             </div>
             <div className="quick-links">
@@ -44,7 +44,7 @@ export default function Footer() {
                 </li> */}
               </ul>
             </div>
-            <p className="copywrite-text">© 2021 DigiDrip</p>
+            <p className="copywrite-text">© 2021 CryptoWall</p>
             <div className="footer-social-icons">
               <ul>
                 <li>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Spinner } from "react-bootstrap";
-import { EmptyBox } from "../../../assets";
+import EmptyBox  from "../../../assets/gif/noData.gif";
 import SubmitNftForm from "../../../pages/form/submitNftForm";
 import Animation from "../common/Animation";
 import { useHistory } from "react-router-dom";
@@ -36,7 +36,8 @@ function SubmitNftModal({ openModal, HideModal, collectionobj, collectnArr }) {
             }}
           >
             <Animation
-              Pic={EmptyBox}
+            gifImage
+              gif={EmptyBox}
               Message={"You have No Collection First Create Your Collection"}
             />
           </div>

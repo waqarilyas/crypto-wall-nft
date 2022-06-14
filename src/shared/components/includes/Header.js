@@ -98,7 +98,7 @@ export default function Header(props) {
           <div className="header-flex">
             <div className="logo">
               <Link to="/">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo"/>
               </Link>
             </div>
             <div className="cus-navigation">
